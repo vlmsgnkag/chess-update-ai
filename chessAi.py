@@ -2,13 +2,11 @@ import random
 import json
 import os
 
-# === THAM SỐ CƠ BẢN ===
 pieceScore = {"K": 0, "Q": 9, "R": 5, "B": 3, "N": 3, "p": 1}
-DEPTH = 4
+DEPTH = 5
 CHECKMATE = 100000
 STALEMATE = 0
 
-# === VỊ TRÍ ĐIỂM CHO QUÂN CỜ ===
 # (giống phần đã có trước đó)
 centerSquares = {(3, 3), (3, 4), (4, 3), (4, 4)}
 
